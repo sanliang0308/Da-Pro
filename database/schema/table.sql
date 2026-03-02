@@ -19,9 +19,11 @@
     tx                  integer,
     ty                  integer,
     tz                  integer,
+    dapro_tx            integer,
+    dapro_ty            integer,
     "mes_sn" varchar(255) COLLATE "pg_catalog"."default",
-  "device_name" varchar(255) COLLATE "pg_catalog"."default",
-  "order_no" varchar(255) COLLATE "pg_catalog"."default"
+    "device_name" varchar(255) COLLATE "pg_catalog"."default",
+    "order_no" varchar(255) COLLATE "pg_catalog"."default"
 );
 
 

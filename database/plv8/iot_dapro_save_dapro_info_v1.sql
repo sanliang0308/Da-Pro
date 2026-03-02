@@ -66,9 +66,9 @@ try {
         }
 
         try {
-            // 计算匹配条件,dimension_y - (ty+1);
+            // 计算匹配条件,dimension_y - (ty);
             
-            const ty_condition = ty+1 ;
+            const ty_condition = dimension_y - (ty) ;
             
             const tx_condition = tx + 1 ;
             
@@ -87,10 +87,12 @@ try {
                     good_devices = $6,
                     supplier_name = $7,
                     status = $8,
-                    from_substrate_id = $9 
-                WHERE tx = $10 
-                  AND ty = $11
-                  AND substrate_id = $12
+                    from_substrate_id = $9,
+                    dapro_tx = $10,
+                    dapro_ty = $11
+                WHERE tx = $12
+                  AND ty = $13
+                  AND substrate_id = $14
             `;
             
             const update_result = plv8.execute(update_sql, [
@@ -103,6 +105,8 @@ try {
                 record.SupplierName || 'MES_SUPPLIER',
                 record.Status || 'SLM',
                 from_substrate_id,
+                tx,
+                ty,
                 tx_condition,
                 ty_condition,
                 substrate_id
