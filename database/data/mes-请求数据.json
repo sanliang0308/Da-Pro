@@ -1,0 +1,203 @@
+{
+    "ts": 1764580856,
+    "device": "DaPro1",
+    "vehicle_code": "S22213509",
+    "mes_response":
+    {
+        "msg": "返回成功",
+        "code": 200,
+        "failCount": "0",
+        "itemCode": "P100010284470",
+        "vehicleCode": "S22213509",
+        "passCount": "30",
+        "result": "OK",
+        "colCount": "8",
+        "itemList":
+        [
+            {
+                "rowNum": "1",
+                "colNum": "1",
+                "binCode": "0",
+                "sn": "SNYY000001"
+            },
+            {
+                "rowNum": "1",
+                "colNum": "2",
+                "binCode": "0",
+                "sn": "SNYY000002"
+            },
+            {
+                "rowNum": "1",
+                "colNum": "3",
+                "binCode": "0",
+                "sn": "SNYY000003"
+            },
+            {
+                "rowNum": "1",
+                "colNum": "4",
+                "binCode": "0",
+                "sn": "SNYY000004"
+            },
+            {
+                "rowNum": "1",
+                "colNum": "5",
+                "binCode": "0",
+                "sn": "SNYY000005"
+            },
+            {
+                "rowNum": "1",
+                "colNum": "6",
+                "binCode": "0",
+                "sn": "SNYY000006"
+            },
+            {
+                "rowNum": "1",
+                "colNum": "8",
+                "binCode": "0",
+                "sn": "SNYY000007"
+            },
+            {
+                "rowNum": "2",
+                "colNum": "1",
+                "binCode": "0",
+                "sn": "SNYY000008"
+            },
+            {
+                "rowNum": "2",
+                "colNum": "2",
+                "binCode": "0",
+                "sn": "SNYY000009"
+            },
+            {
+                "rowNum": "2",
+                "colNum": "3",
+                "binCode": "0",
+                "sn": "SNYY000010"
+            },
+            {
+                "rowNum": "2",
+                "colNum": "4",
+                "binCode": "0",
+                "sn": "SNYY000011"
+            },
+            {
+                "rowNum": "2",
+                "colNum": "5",
+                "binCode": "0",
+                "sn": "SNYY000012"
+            },
+            {
+                "rowNum": "2",
+                "colNum": "6",
+                "binCode": "0",
+                "sn": "SNYY000013"
+            },
+            {
+                "rowNum": "2",
+                "colNum": "7",
+                "binCode": "0",
+                "sn": "SNYY000014"
+            },
+            {
+                "rowNum": "2",
+                "colNum": "8",
+                "binCode": "0",
+                "sn": "SNYY000015"
+            },
+            {
+                "rowNum": "3",
+                "colNum": "2",
+                "binCode": "0",
+                "sn": "SNYY000016"
+            },
+            {
+                "rowNum": "3",
+                "colNum": "3",
+                "binCode": "0",
+                "sn": "SNYY000017"
+            },
+            {
+                "rowNum": "3",
+                "colNum": "4",
+                "binCode": "0",
+                "sn": "SNYY000018"
+            },
+            {
+                "rowNum": "3",
+                "colNum": "5",
+                "binCode": "0",
+                "sn": "SNYY000019"
+            },
+            {
+                "rowNum": "3",
+                "colNum": "6",
+                "binCode": "0",
+                "sn": "SNYY000021"
+            },
+            {
+                "rowNum": "3",
+                "colNum": "7",
+                "binCode": "0",
+                "sn": "SNYY000022"
+            },
+            {
+                "rowNum": "3",
+                "colNum": "8",
+                "binCode": "0",
+                "sn": "SNYY000023"
+            },
+            {
+                "rowNum": "4",
+                "colNum": "1",
+                "binCode": "0",
+                "sn": "SNYY000024"
+            },
+            {
+                "rowNum": "4",
+                "colNum": "2",
+                "binCode": "0",
+                "sn": "SNYY000025"
+            },
+            {
+                "rowNum": "4",
+                "colNum": "3",
+                "binCode": "0",
+                "sn": "SNYY000026"
+            },
+            {
+                "rowNum": "4",
+                "colNum": "4",
+                "binCode": "0",
+                "sn": "SNYY000027"
+            },
+            {
+                "rowNum": "4",
+                "colNum": "5",
+                "binCode": "0",
+                "sn": "SNYY000028"
+            },
+            {
+                "rowNum": "4",
+                "colNum": "6",
+                "binCode": "0",
+                "sn": "SNYY000029"
+            },
+            {
+                "rowNum": "4",
+                "colNum": "7",
+                "binCode": "0",
+                "sn": "SNYY000030"
+            },
+            {
+                "rowNum": "4",
+                "colNum": "8",
+                "binCode": "0",
+                "sn": "SNYY000031"
+            }
+        ],
+        "rowCount": "4",
+        "drawingName": "AW01D02-300",
+        "timestamp": 1763949555698,
+        "order": "1011303"
+    }
+}

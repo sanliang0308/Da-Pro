@@ -1,0 +1,719 @@
+{
+    "MapData":
+    {
+        "_attributes":
+        {
+            "xmlns": "urn:semi-org:xsd.E142-1.V1005.SubstrateMap"
+        },
+        "Layouts":
+        [
+            {
+                "Layout":
+                [
+                    {
+                        "_attributes":
+                        {
+                            "LayoutId": "StripMap",
+                            "DefaultUnits": "um",
+                            "TopLevel": "true"
+                        },
+                        "Dimension":
+                        [
+                            {
+                                "_attributes":
+                                {
+                                    "X": "8",
+                                    "Y": "4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Substrates":
+        [
+            {
+                "Substrate":
+                [
+                    {
+                        "_attributes":
+                        {
+                            "SubstrateType": "Strip",
+                            "SubstrateId": "BOX2511250014",
+                            "LotId": "P94L03AA-350",
+                            "GoodDevices": "31",
+                            "SupplierName": "MES_SUPPLIER",
+                            "Status": "SLM"
+                        }
+                    }
+                ]
+            }
+        ],
+        "SubstrateMaps":
+        [
+            {
+                "SubstrateMap":
+                [
+                    {
+                        "_attributes":
+                        {
+                            "SubstrateType": "Strip",
+                            "SubstrateId": "BOX2511250014",
+                            "LayoutSpecifier": "StripMap",
+                            "SubstrateSide": "TopSide",
+                            "Orientation": "0",
+                            "OriginLocation": "LowerLeft"
+                        },
+                        "Overlay":
+                        [
+                            {
+                                "_attributes":
+                                {
+                                    "MapName": "MarkGrade",
+                                    "MapVersion": "1"
+                                },
+                                "BinCodeMap":
+                                [
+                                    {
+                                        "_attributes":
+                                        {
+                                            "MapType": "Coordinate",
+                                            "BinType": "Ascii",
+                                            "NullBin": "."
+                                        },
+                                        "BinDefinitions":
+                                        [
+                                            {
+                                                "BinDefinition":
+                                                [
+                                                    {
+                                                        "_attributes":
+                                                        {
+                                                            "BinCode": "0",
+                                                            "BinQuality": "Pass",
+                                                            "BinDescription": "Pass",
+                                                            "BinCount": "0"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attributes":
+                                                        {
+                                                            "BinCode": "1",
+                                                            "BinCount": "1",
+                                                            "BinDescription": "Fail",
+                                                            "BinQuality": "Fail"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attributes":
+                                                        {
+                                                            "BinCode": "3",
+                                                            "BinCount": "30",
+                                                            "BinDescription": "Processed Good Unit",
+                                                            "BinQuality": "Pass",
+                                                            "Pick": "false"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attributes":
+                                                        {
+                                                            "BinCode": "2",
+                                                            "BinCount": "1",
+                                                            "BinDescription": "Processing Rejected Unit",
+                                                            "BinQuality": "Fail",
+                                                            "Pick": "false"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "BinCode":
+                                        [
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "0",
+                                                    "Y": "0"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "1",
+                                                    "Y": "0"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "2",
+                                                    "Y": "0"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "3",
+                                                    "Y": "0"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "4",
+                                                    "Y": "0"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "5",
+                                                    "Y": "0"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "6",
+                                                    "Y": "0"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "7",
+                                                    "Y": "0"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "0",
+                                                    "Y": "1"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "1",
+                                                    "Y": "1"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "2",
+                                                    "Y": "1"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "3",
+                                                    "Y": "1"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "4",
+                                                    "Y": "1"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "5",
+                                                    "Y": "1"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "6",
+                                                    "Y": "1"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "7",
+                                                    "Y": "1"
+                                                }
+                                            },
+                                            {
+                                                "_text": "2",
+                                                "_attributes":
+                                                {
+                                                    "X": "0",
+                                                    "Y": "2"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "1",
+                                                    "Y": "2"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "2",
+                                                    "Y": "2"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "3",
+                                                    "Y": "2"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "4",
+                                                    "Y": "2"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "5",
+                                                    "Y": "2"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "6",
+                                                    "Y": "2"
+                                                }
+                                            },
+                                            {
+                                                "_text": "1",
+                                                "_attributes":
+                                                {
+                                                    "X": "7",
+                                                    "Y": "2"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "0",
+                                                    "Y": "3"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "1",
+                                                    "Y": "3"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "2",
+                                                    "Y": "3"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "3",
+                                                    "Y": "3"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "4",
+                                                    "Y": "3"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "5",
+                                                    "Y": "3"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "6",
+                                                    "Y": "3"
+                                                }
+                                            },
+                                            {
+                                                "_text": "3",
+                                                "_attributes":
+                                                {
+                                                    "X": "7",
+                                                    "Y": "3"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "_attributes":
+                                {
+                                    "MapName": "WaferToStrip",
+                                    "MapVersion": "1.0"
+                                },
+                                "TransferMap":
+                                [
+                                    {
+                                        "_attributes":
+                                        {
+                                            "FromSubstrateType": "Wafer",
+                                            "FromSubstrateId": "E0K153000501"
+                                        },
+                                        "T":
+                                        [
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "28",
+                                                    "FY": "52",
+                                                    "TX": "0",
+                                                    "TY": "3",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "27",
+                                                    "FY": "52",
+                                                    "TX": "0",
+                                                    "TY": "1",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "26",
+                                                    "FY": "52",
+                                                    "TX": "0",
+                                                    "TY": "0",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "22",
+                                                    "FY": "52",
+                                                    "TX": "1",
+                                                    "TY": "3",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "23",
+                                                    "FY": "52",
+                                                    "TX": "1",
+                                                    "TY": "2",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "24",
+                                                    "FY": "52",
+                                                    "TX": "1",
+                                                    "TY": "1",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "25",
+                                                    "FY": "52",
+                                                    "TX": "1",
+                                                    "TY": "0",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "21",
+                                                    "FY": "52",
+                                                    "TX": "2",
+                                                    "TY": "3",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "20",
+                                                    "FY": "52",
+                                                    "TX": "2",
+                                                    "TY": "2",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "19",
+                                                    "FY": "52",
+                                                    "TX": "2",
+                                                    "TY": "1",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "18",
+                                                    "FY": "52",
+                                                    "TX": "2",
+                                                    "TY": "0",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "14",
+                                                    "FY": "52",
+                                                    "TX": "3",
+                                                    "TY": "3",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "15",
+                                                    "FY": "52",
+                                                    "TX": "3",
+                                                    "TY": "2",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "16",
+                                                    "FY": "52",
+                                                    "TX": "3",
+                                                    "TY": "1",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "17",
+                                                    "FY": "52",
+                                                    "TX": "3",
+                                                    "TY": "0",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "13",
+                                                    "FY": "52",
+                                                    "TX": "4",
+                                                    "TY": "3",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "12",
+                                                    "FY": "52",
+                                                    "TX": "4",
+                                                    "TY": "2",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "11",
+                                                    "FY": "52",
+                                                    "TX": "4",
+                                                    "TY": "1",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "10",
+                                                    "FY": "52",
+                                                    "TX": "4",
+                                                    "TY": "0",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "6",
+                                                    "FY": "52",
+                                                    "TX": "5",
+                                                    "TY": "3",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "7",
+                                                    "FY": "52",
+                                                    "TX": "5",
+                                                    "TY": "2",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "8",
+                                                    "FY": "52",
+                                                    "TX": "5",
+                                                    "TY": "1",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "9",
+                                                    "FY": "52",
+                                                    "TX": "5",
+                                                    "TY": "0",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "5",
+                                                    "FY": "52",
+                                                    "TX": "6",
+                                                    "TY": "3",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "4",
+                                                    "FY": "52",
+                                                    "TX": "6",
+                                                    "TY": "2",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "3",
+                                                    "FY": "52",
+                                                    "TX": "6",
+                                                    "TY": "1",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "2",
+                                                    "FY": "52",
+                                                    "TX": "6",
+                                                    "TY": "0",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "72",
+                                                    "FY": "51",
+                                                    "TX": "7",
+                                                    "TY": "3",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "0",
+                                                    "FY": "52",
+                                                    "TX": "7",
+                                                    "TY": "1",
+                                                    "TZ": "1"
+                                                }
+                                            },
+                                            {
+                                                "_attributes":
+                                                {
+                                                    "FX": "1",
+                                                    "FY": "52",
+                                                    "TX": "7",
+                                                    "TY": "0",
+                                                    "TZ": "1"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

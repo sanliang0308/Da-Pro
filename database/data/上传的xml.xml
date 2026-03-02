@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MapData
+    xmlns="urn:semi-org:xsd.E142-1.V1005.SubstrateMap">
+    <Layouts>
+        <Layout LayoutId="StripMap" DefaultUnits="um" TopLevel="true">
+            <Dimension X="8" Y="4"/>
+        </Layout>
+    </Layouts>
+    <Substrates>
+        <Substrate SubstrateType="Strip" SubstrateId="BOX2511250014" LotId="P94L03AA-350" GoodDevices="31" SupplierName="MES_SUPPLIER" Status="SLM"/>
+    </Substrates>
+    <SubstrateMaps>
+        <SubstrateMap SubstrateType="Strip" SubstrateId="BOX2511250014" LayoutSpecifier="StripMap" SubstrateSide="TopSide" Orientation="0" OriginLocation="LowerLeft">
+            <Overlay MapName="MarkGrade" MapVersion="1">
+                <BinCodeMap MapType="Coordinate" BinType="Ascii" NullBin=".">
+                    <BinDefinitions>
+                        <BinDefinition BinCode="0" BinQuality="Pass" BinDescription="Pass" BinCount="0"/>
+                        <BinDefinition BinCode="1" BinCount="1" BinDescription="Fail" BinQuality="Fail"/>
+                        <BinDefinition BinCode="3" BinCount="30" BinDescription="Processed Good Unit" BinQuality="Pass" Pick="false"/>
+                        <BinDefinition BinCode="2" BinCount="1" BinDescription="Processing Rejected Unit" BinQuality="Fail" Pick="false"/>
+                    </BinDefinitions>
+                    <BinCode  X="0" Y="0">3</BinCode>
+                    <BinCode  X="1" Y="0">3</BinCode>
+                    <BinCode  X="2" Y="0">3</BinCode>
+                    <BinCode  X="3" Y="0">3</BinCode>
+                    <BinCode  X="4" Y="0">3</BinCode>
+                    <BinCode  X="5" Y="0">3</BinCode>
+                    <BinCode  X="6" Y="0">3</BinCode>
+                    <BinCode  X="7" Y="0">3</BinCode>
+                    <BinCode  X="0" Y="1">3</BinCode>
+                    <BinCode  X="1" Y="1">3</BinCode>
+                    <BinCode  X="2" Y="1">3</BinCode>
+                    <BinCode  X="3" Y="1">3</BinCode>
+                    <BinCode  X="4" Y="1">3</BinCode>
+                    <BinCode  X="5" Y="1">3</BinCode>
+                    <BinCode  X="6" Y="1">3</BinCode>
+                    <BinCode  X="7" Y="1">3</BinCode>
+                    <BinCode  X="0" Y="2">2</BinCode>
+                    <BinCode  X="1" Y="2">3</BinCode>
+                    <BinCode  X="2" Y="2">3</BinCode>
+                    <BinCode  X="3" Y="2">3</BinCode>
+                    <BinCode  X="4" Y="2">3</BinCode>
+                    <BinCode  X="5" Y="2">3</BinCode>
+                    <BinCode  X="6" Y="2">3</BinCode>
+                    <BinCode  X="7" Y="2">1</BinCode>
+                    <BinCode  X="0" Y="3">3</BinCode>
+                    <BinCode  X="1" Y="3">3</BinCode>
+                    <BinCode  X="2" Y="3">3</BinCode>
+                    <BinCode  X="3" Y="3">3</BinCode>
+                    <BinCode  X="4" Y="3">3</BinCode>
+                    <BinCode  X="5" Y="3">3</BinCode>
+                    <BinCode  X="6" Y="3">3</BinCode>
+                    <BinCode  X="7" Y="3">3</BinCode>
+                </BinCodeMap>
+            </Overlay>
+            <Overlay MapName="WaferToStrip" MapVersion="1.0">
+                <TransferMap FromSubstrateType="Wafer" FromSubstrateId="E0K153000501">
+                    <T FX="28" FY="52" TX="0" TY="3" TZ="1"/>
+                    <T FX="27" FY="52" TX="0" TY="1" TZ="1"/>
+                    <T FX="26" FY="52" TX="0" TY="0" TZ="1"/>
+                    <T FX="22" FY="52" TX="1" TY="3" TZ="1"/>
+                    <T FX="23" FY="52" TX="1" TY="2" TZ="1"/>
+                    <T FX="24" FY="52" TX="1" TY="1" TZ="1"/>
+                    <T FX="25" FY="52" TX="1" TY="0" TZ="1"/>
+                    <T FX="21" FY="52" TX="2" TY="3" TZ="1"/>
+                    <T FX="20" FY="52" TX="2" TY="2" TZ="1"/>
+                    <T FX="19" FY="52" TX="2" TY="1" TZ="1"/>
+                    <T FX="18" FY="52" TX="2" TY="0" TZ="1"/>
+                    <T FX="14" FY="52" TX="3" TY="3" TZ="1"/>
+                    <T FX="15" FY="52" TX="3" TY="2" TZ="1"/>
+                    <T FX="16" FY="52" TX="3" TY="1" TZ="1"/>
+                    <T FX="17" FY="52" TX="3" TY="0" TZ="1"/>
+                    <T FX="13" FY="52" TX="4" TY="3" TZ="1"/>
+                    <T FX="12" FY="52" TX="4" TY="2" TZ="1"/>
+                    <T FX="11" FY="52" TX="4" TY="1" TZ="1"/>
+                    <T FX="10" FY="52" TX="4" TY="0" TZ="1"/>
+                    <T FX="6" FY="52" TX="5" TY="3" TZ="1"/>
+                    <T FX="7" FY="52" TX="5" TY="2" TZ="1"/>
+                    <T FX="8" FY="52" TX="5" TY="1" TZ="1"/>
+                    <T FX="9" FY="52" TX="5" TY="0" TZ="1"/>
+                    <T FX="5" FY="52" TX="6" TY="3" TZ="1"/>
+                    <T FX="4" FY="52" TX="6" TY="2" TZ="1"/>
+                    <T FX="3" FY="52" TX="6" TY="1" TZ="1"/>
+                    <T FX="2" FY="52" TX="6" TY="0" TZ="1"/>
+                    <T FX="72" FY="51" TX="7" TY="3" TZ="1"/>
+                    <T FX="0" FY="52" TX="7" TY="1" TZ="1"/>
+                    <T FX="1" FY="52" TX="7" TY="0" TZ="1"/>
+                </TransferMap>
+            </Overlay>
+        </SubstrateMap>
+    </SubstrateMaps>
+</MapData>
